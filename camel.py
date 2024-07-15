@@ -3,7 +3,7 @@ camelCase = input("camelCase: ")
 snake_case = []
 for letter in camelCase:
     if letter.isupper():
-        letter = letter.replace(letter, "_" + letter).lower()
+        letter = letter.replace(letter, "_" + letter).lower(9
         snake_case.append(letter)
     else:
         snake_case.append(letter)
