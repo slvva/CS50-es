@@ -8,4 +8,4 @@ for letter in camelCase:
     else:
         snake_case.append(letter)
 
-print("".join(snake_case))
+print("snake_case:", "".join(snake_case))
