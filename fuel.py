@@ -4,7 +4,7 @@ while True:
         x, y = str_fraction.split("/")
         x = int(x)
         y = int(y)
-        if x <= y:
+        if x < y:
             break
     except (ValueError, ZeroDivisionError):
         continue
