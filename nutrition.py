@@ -1,10 +1,6 @@
 fruit = input("Item: ")
 
-fruit = fruit.casefold()
-
-fruit = input("Item: ")
-
-fruit = fruit.casefold()
+fruit = fruit.casefold().strip()
 
 
 fruits = {
