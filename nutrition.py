@@ -2,43 +2,33 @@ fruit = input("Item: ")
 
 fruit = fruit.casefold()
 
-if fruit == "apple":
-    print("Calories: 130")
-elif fruit == "avocado":
-    print("Calories: 50")
-elif fruit == "banana":
-    print("Calories: 110")
-elif fruit == "cantaloupe":
-    print("Calories: 50")
-elif fruit == "grapefruit":
-    print("Calories: 60")
-elif fruit == "grapes":
-    print("Calories: 90")
-elif fruit == "honeydew melon":
-    print("Calories: 50")
-elif fruit == "kiwifruit":
-    print("Calories: 90")
-elif fruit == "lemon":
-    print("Calories: 15")
-elif fruit == "lime":
-    print("Calories: 20")
-elif fruit == "nectarine":
-    print("Calories: 60")
-elif fruit == "orange":
-    print("Calories: 80")
-elif fruit == "peach":
-    print("Calories: 60")
-elif fruit == "pear":
-    print("Calories: 100")
-elif fruit == "pineaplle":
-    print("Calories: 50")
-elif fruit == "plums":
-    print("Calories: 70")
-elif fruit == "strawberries":
-    print("Calories: 50")
-elif fruit == "sweet cherries":
-    print("Calories: 100")
-elif fruit == "tangerine":
-    print("Calories: 50")
-elif fruit == "watermelon":
-    print("Calories: 80")
+fruit = input("Item: ")
+
+fruit = fruit.casefold()
+
+
+fruits = {
+    "apple": 130,
+    "avocado": 50,
+    "banana": 110,
+    "cantaloupe": 50,
+    "grapefruit": 60,
+    "grapes": 90,
+    "honeydew melon": 50,
+    "kiwifruit": 90,
+    "lemon": 15,
+    "lime": 20,
+    "nectarine": 60,
+    "orange": 80,
+    "peach": 60,
+    "pear": 100,
+    "pineaplle": 50,
+    "plums": 70,
+    "strawberries": 50,
+    "sweet cherries": 100,
+    "tangerine": 50,
+    "watermelon": 80
+    }
+
+if fruit in fruits:
+    print(fruits[fruit])
