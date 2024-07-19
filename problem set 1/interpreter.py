@@ -5,7 +5,7 @@ if expression[2] == "+":
     result = float(expression[0]) + float(expression[4])
     print(result)
 elif expression[2] == "-":
-    result = float(expression[0]) - int(expression[4])
+    result = float(expression[0]) - float(expression[4])
     print(result)
 elif expression[2] == "*":
     result = float(expression[0]) * float(expression[4])
